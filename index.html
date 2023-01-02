@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria zdjęć</title>
+    <link href="../dist/css/lightbox.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="gallery">
+        <div class="title">
+            <h1>Miasta odwiedzone w 2022 roku</h1>
+        </div>
+        <div class="images">
+            <a href="img/1.jpg" data-lightbox="www" data-title="Lipsk"><img src="img/thumb1.jpg" alt=""></a>
+            <a href="img/2.jpg"  data-lightbox="www" data-title="Augsburg"><img src="img/thumb2.jpg" alt=""></a>
+            <a href="img/3.jpg"  data-lightbox="www" data-title="Kolonia"><img src="img/thumb3.jpg" alt=""></a>
+            <a href="img/4.jpg"  data-lightbox="www" data-title="Lubeka"><img src="img/thumb4.jpg" alt=""></a>
+            <a href="img/5.jpg"  data-lightbox="www" data-title="Norymberga"><img src="img/thumb5.jpg" alt=""></a>
+            <a href="img/6.jpg"  data-lightbox="www" data-title="Monachium"><img src="img/thumb6.jpg" alt=""></a>
+            <a href="img/7.jpg"  data-lightbox="www" data-title="Salzburg"><img src="img/thumb7.jpg" alt=""></a>
+            <a href="img/8.jpg"  data-lightbox="www" data-title="Wiedeń"><img src="img/thumb8.jpg" alt=""></a>
+
+
+        </div>
+    </section>
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="../dist/js/lightbox.js"></script>
+<script>
+    lightbox.option({
+        'albumLabel': "Strona %1 z %2"
+    })
+</script>
+
+</html>
